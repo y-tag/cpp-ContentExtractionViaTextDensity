@@ -1,0 +1,7 @@
+CC = g++
+#CC = clang++
+FASTOPT = -O3 -march=native -Wall
+DEBUGOPT = -pg -Wall -O3
+
+CFLAG = $(FASTOPT)
+#CFLAG = $(DEBUGOPT)
